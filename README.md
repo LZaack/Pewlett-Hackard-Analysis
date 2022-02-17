@@ -20,7 +20,7 @@ To achieve the results asked, I created two deliverables:
 
 `(iv)` I exported the `retirement_titles` table, as it is shown:
 
-![retirement_titles](/Pewlett-Hackard-AnalysisFolder/Queries/retirement_titles.png)
+![retirement_titles](https://user-images.githubusercontent.com/95454286/154427549-b0137902-299e-4a33-84a2-2c7a01c76ea4.png)
 
 `(v)` After that, I retrieve the employee number, first and last name, and title columns from the `retirement_titles` table;
 
@@ -30,13 +30,13 @@ To achieve the results asked, I created two deliverables:
 
 `(viii)` I create the `unique_titles` table using the INTO clause, and I exported it as follows:
 
-![unique_titles](/Pewlett-Hackard-AnalysisFolder/Queries/unique_titles.png)
+![unique_titles](https://user-images.githubusercontent.com/95454286/154427638-e6c8c823-aae9-497a-b049-b070603616fe.png)
 
 `(ix)` Then, I retrieved the number of employees by their most recent job title who are about to retire;
 
 `(x)` I created the `retiring_titles` table to hold the number of titles sorted by the count of employees in descending order and exported as the next:
 
-![retiring_titles](/Pewlett-Hackard-AnalysisFolder/Queries/retiring_titles.png)
+![retiring_titles](https://user-images.githubusercontent.com/95454286/154427708-3b98f95f-eea8-4f7f-bcab-3dd6e76e56c3.png)
 
 ### The Employees Eligible for the Mentorship Program
 
@@ -50,7 +50,7 @@ To achieve the results asked, I created two deliverables:
 
 `(v)` Finally, I exported the `mentorship_eligibility ` table:
 
-![mentorship_eligibility](/Pewlett-Hackard-AnalysisFolder/Queries/mentorship_eligibility.png)
+![mentorship_eligibility](https://user-images.githubusercontent.com/95454286/154427784-53434d68-0c41-4986-917b-6d6b8521e21a.png)
 
 After all these processes the results can be interpreted in four conclusions:
 
@@ -70,10 +70,10 @@ After delivering my analysis, they asked me to answer the following questions:
 
 We can answer this question by filtering the retirement candidates from their birth date, as in the following table are those who were born in 1952 which are the first to retire. 
 
-![first_retiring_titles](/Pewlett-Hackard-AnalysisFolder/Queries/first_retiring_titles.png)
+![first_retiring_titles](https://user-images.githubusercontent.com/95454286/154427816-e41d8de6-7335-4a01-b767-c0ae2c206ffa.png)
 
   **B** Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
 Probably no, if we sort the mentorship_eligibility table by title the result is going to be not enough qualified employees that could mentor the following generation, as is in the next image:
 
-![mentorship_eligibility_per_title](/Pewlett-Hackard-AnalysisFolder/Queries/mentorship_eligibility_per_title.png)
+![mentorship_eligibility_per_title](https://user-images.githubusercontent.com/95454286/154427843-89422fe7-f180-4678-96cc-d525b0631ad1.png)
